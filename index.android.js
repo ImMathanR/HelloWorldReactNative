@@ -9,6 +9,7 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
+  Image,
   View
 } from 'react-native';
 
@@ -16,6 +17,7 @@ export default class HelloWorld extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <Image source={require('./img/ic_launcher.png')} />
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
